@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("fonts.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "iranyekanMedium";
+  background-color: #fff;
+  direction: rtl;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+label:has(+ input:focus) {
+  color: #0050e5;
+}
+label:has(+ textarea:focus) {
+  color: #0050e5;
+}
+textarea:focus {
+  outline: none;
+  border: 2px solid #0050e5;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #0050e5;
+}
+input:hover,
+textarea:hover {
+  background-color: #fafafa;
+}
+textarea {
+  resize: none;
+}
+
+.MuiPagination-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.MuiPaginationItem-root {
+  font-size: 14px !important ;
+  font-family: "iranyekanMedium" !important;
+}
+.MuiPaginationItem-root:active {
+  font-size: 16px !important ;
+  font-family: "iranyekanMedium" !important;
+}
+.MuiPaginationItem-root :hover {
+  background-color: #ccc;
+}
+.MuiPaginationItem-icon {
+  font-size: 14px;
+}
+
+.MuiPaginationItem-icon:hover {
+  background: transparent;
+}
+
+.MuiNativeSelect-icon {
+  display: none !important;
+}
+
+@media screen and (min-width: 768px) {
+  .MuiPaginationItem-root {
+    font-size: 18px !important ;
+    font-family: "iranyekanMedium" !important;
+  }
+  input {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .MuiPaginationItem-root {
+    font-size: 14px !important ;
+    font-family: "iranyekanMedium" !important;
+    margin-right: -5px !important;
+  }
+  .MuiPaginationItem-icon {
+    font-size: 12px !important;
+  }
+  input {
+    font-size: 16px;
+  }
+  body {
+    overflow-y: scroll;
+  }
+}
+::-webkit-scrollbar {
+  width: 5px !important;
+  height: 10px !important;
+  direction: ltr;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+  border-radius: 5px;
+  height: 20px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+}
+@media screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-button {
+    height: 120px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    width: 5px;
+    border-radius: 5px;
+  }
+}
+
+.MuiTooltip-tooltip {
+  font-family: "iranyekanMedium" !important;
+  font-size: 12px !important;
+  line-height: 24px !important;
+  background-color: #212121 !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.text-right {
+  direction: rtl;
+  text-align: right;
+}
+
+.text-left {
+  direction: ltr;
+  text-align: left;
+}

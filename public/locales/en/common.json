@@ -1,0 +1,107 @@
+{
+  "ramzNegarSystem": {
+    "titleHighlight": "Tabadol",
+    "titleBase": "System",
+    "subtitle1": "Providing banking and service APIs",
+    "subtitle2": "Grow your business with Tabadol."
+  },
+  "welcome": "Welcome to our website",
+  "tabletAuth": {
+    "loginRegister": "Login / Register"
+  },
+  "header": {
+    "whyRamzNegar": "Why Tabadol",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "news": "News and Articles"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "backToPanel": "Back to Dashboard"
+  },
+  "whyRamzNegar": {
+    "titlePrefix": "?Why",
+    "whySeif": "Tabadol"
+  },
+  "easyAccess": {
+    "title": "Easy Access",
+    "line1": "All banking and non-banking",
+    "line2": "services are available",
+    "line3": "to you here."
+  },
+  "economy": {
+    "title": "Saving",
+    "line1": "Comprehensive services and",
+    "line2": "uniform implementation",
+    "line3": "capability save you time",
+    "line4": "effectively."
+  },
+  "serviceDevelopment": {
+    "title": "Service Development",
+    "line1": "With our committed team,",
+    "line2": "we strive to keep up with",
+    "line3": "technology and offer new",
+    "line4": "services."
+  },
+  "increaseIncome": {
+    "title": "Increase Income",
+    "line1": "By calling our services,",
+    "line2": "you can become our",
+    "line3": "business partner."
+  },
+  "coinService": {
+    "exitText": "Login and get service",
+    "loginText": "Get service",
+    "userRegister": {
+      "title": "User Registration and Inquiry",
+      "sub1": "Display user ID after registration",
+      "sub2": "Customer information required"
+    },
+    "coinConfirm": {
+      "title": "Coin Receipt Confirmation",
+      "sub1": "Customer national ID required",
+      "sub2": "Customer request information required"
+    },
+    "coinRequest": {
+      "title": "Pre-Request for Coin Delivery",
+      "sub1": "Customer national ID required",
+      "sub2": "Customer request information required"
+    },
+    "coinShow": {
+      "title": "View Purchased Coins",
+      "sub1": "Customer national ID required",
+      "sub2": "Terminal number required"
+    },
+    "userRemaining": {
+      "title": "User Balance Inquiry",
+      "sub1": "Customer national ID required"
+    },
+    "productPrice": {
+      "title": "Get Product Prices",
+      "sub1": "Display list of products available for sale"
+    },
+    "activeMachines": {
+      "title": "Active Machines Inquiry",
+      "sub1": "Display list of coin vending machines",
+      "sub2": "Product information required"
+    }
+  },
+  "coinLandingLayout": {
+    "title": "Gold Coin Purchase Services",
+    "description": "Services that allow customers to check the gold coin purchase amount and receive it physically. These services can be implemented in mobile applications, and physical coins can be delivered to customers. GSS ATMs are capable of delivering coins to users."
+  },
+  "signIn": {
+    "login": "Login to your account",
+    "notRegistered": "Haven't registered yet?",
+    "signUp": "Sign Up",
+    "username": "National/Company ID",
+    "password": "Password",
+    "captchaInstruction": "Enter the code above",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "loginButton": "Login",
+    "loginSuccess": "Login successful"
+  }
+}
